@@ -1,0 +1,103 @@
+.cardCheckerWidget {
+  width: 381px;
+  height: 89px;
+  margin: 0px 10px;
+}
+
+.card {
+  float: left;
+  width: 39px;
+  height: 25px;
+  margin: 10px 2px;
+}
+
+.cardVisa {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-visa.gif);
+}
+
+.cardMaster {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-mastercard.gif);
+}
+
+.cardAE {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-amex.gif);
+}
+
+.cardD {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-discover.gif);
+}
+
+.cardJSB {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-jcb.gif);
+}
+
+.cardDC {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-diners.gif);
+}
+
+.cardCheckerWidgetform {
+  display: inline-block;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-control-input {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-success:active:hover {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+
+.cardCheckerWidgetValidAnsw {
+  margin-left: 10px;
+  /* position: relative; */
+  padding: 6px 12px;
+  color: #ffffff;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.AnswTrue {
+  background-color: #2da40f;
+  display: none;
+}
+
+.AnswFalse {
+  background-color: #fe391fd9;
+  display: none;
+}
